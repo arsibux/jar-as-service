@@ -23,7 +23,7 @@ RestartSec=10
 WantedBy=multi-user.target
 ```
 
-* `sudo systemctl enable service.name`
-* `sudo systemctl start service.name`
-* `sudo systemctl restart service.name`
-* `sudo systemctl stop service.name`
+* `sudo systemctl enable name.service`
+* `sudo systemctl start name.service`
+* `sudo systemctl restart name.service`
+* `sudo systemctl stop name.service`
